@@ -1,0 +1,45 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-container{
+    flex-grow: 1;
+}
+
+footer {
+    font-weight: 600px;
+    border-top: 1px solid #666;
+    padding: 20px 0px;
+    color:cadetblue;
+}
+
+header{
+    margin-bottom: 48px;
+}
+
+h1{
+    font-size: 48px;
+}
+
+header a{
+    color: #666;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+header a:hover{
+    color: #000;
+    background-color: aqua;
+    border-radius: 20px;
+}
+

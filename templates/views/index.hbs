@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/styles.css"></link>
+        <title>Know your {{title}}</title>
+    </head>
+    <body>
+        <div class="main-container">
+            {{>header}}
+            <p>Use this site to get your weather</p>
+            <form>
+                <input placeholder="location">
+                <button>Search</button>
+            </form>
+            <p id="message"></p>
+        </div>
+        {{>footer}}
+        <script src="/js/script.js"></script>
+    </body>
+</html>
